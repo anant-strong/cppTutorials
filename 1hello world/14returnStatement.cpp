@@ -5,8 +5,8 @@ using namespace std;
 double cube(double num)             //this functn will return value
 {
     
-    double result = num * num * num;  
-    return result;
+    double result = num * num * num;   // also can be  
+    return result;                     //return num * num * num;
 }
                                                        //if you don't want input from user
 int main()                                             //int main()
