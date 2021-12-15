@@ -1,12 +1,22 @@
-#include<iostream>
-#include<bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
-int main()
+
+double cube(double num)             //this functn will return value
 {
-    int a; long b; char c; float d; double e;
-    cin>>a>>b>>c>>d>>e;
-    cout<<a<<"\n"<<b<<"\n"<<c<<"\n";
-    cout<<fixed<<setprecision(3)<<d<<"\n";
-    cout<<fixed<<setprecision(9)<<e<<"\n";
+    
+    double result = num * num * num;  
+    return result;
+}
+                                                       //if you don't want input from user
+int main()                                             //int main()
+{                                                      //{ cube(5);
+                                                       // cout << cube(5); }
+    double num;
+    cout << "Enter a no you want to cube: ";
+    cin >> num;
+    cube(num);
+    cout << cube(num);
+    
     return 0;
 }
