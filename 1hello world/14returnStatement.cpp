@@ -20,3 +20,5 @@ int main()                                             //int main()
     
     return 0;
 }
+// return is a special kind of keyword in cpp as it tells that we are done executing code from here 
+// in a function so anything below return statement will not get executed in a function
