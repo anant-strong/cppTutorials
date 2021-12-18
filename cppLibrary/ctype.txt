@@ -1,0 +1,18 @@
+#include <iostream>
+#include <ctype.h>
+using namespace std;            
+
+int main() {
+    
+    char ch;
+    cin >> ch;
+    if(isupper(ch)){            //isupper can detect whether letter is in 
+        cout << 1;              //uppercase or not like A, islower a
+    }else if(islower(ch)){
+        cout << 0;
+    }else {
+        cout << -1;
+    }
+
+    return 0;
+}
