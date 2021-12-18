@@ -9,7 +9,7 @@ int main()
     cout << 5 - 7 << endl;
     cout << 5 / 7 << endl;
     cout << 5 * 7 << endl;
-    cout << 7 % 5 << endl;
+    cout << 7 % 5 << endl;                                                              
     num++;       //this is gonna add one to num value
     cout << num << endl; 
     num--;       //this is gonna subtract one to num value
@@ -28,3 +28,13 @@ int main()
      
     return 0;
 }
+//        int num = 10;
+//     cout << "Post increment = " << num++;
+//     // first print 10, then number is increment to 11
+//     cout << "Pre increment = " << ++num;
+//     // num was 11, incremented to 12 and print
+//     return 0;
+// }
+// Output:
+// Post increment = 10
+// Pre increment = 12
