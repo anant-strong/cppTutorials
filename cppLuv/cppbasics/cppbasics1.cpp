@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    int a = 3;
+    int a = 3;    //long,long long stores higher values than int
     char c = 'a';
-    double d = 4.7;
+    double d = 4.7; //double can store higher values than float
     bool l = true;// it will print 1
     l = 123; // in cpp every other thing it will take as true except 0, so it will also print true
     a = 7.7; //if try to store decimal in int var it prints integer of back i.e. 7
