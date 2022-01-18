@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << 'a' + 1 << endl;
+    cout << 'c' + 1 << endl;//int is given preferrence than char so calculation here will happen in int so ASCII value of c + 1 will print
     cout << 7/4 << endl;
     cout << 7/2.0;
     return 0;
