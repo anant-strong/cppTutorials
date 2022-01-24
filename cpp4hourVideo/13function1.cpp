@@ -4,7 +4,7 @@ using namespace std;
 
 void sayHi(string name, int age)     //we created a void funtion it will return nothing like main returns 0
 {                            
-    cout << "Hello " << name << " \nyou age is " << age << endl;     //in order to execute this piece of code we need to call it from main
+    cout << "Hello " << name << " \nyour age is " << age << endl;     //in order to execute this piece of code we need to call it from main
                                                                 //function
 }                                                         
 
