@@ -10,17 +10,18 @@ int main()
     int i = 1;
     while(i <= n){
         int j = 1;
-        while(j <= n){
-            cout << char(c + j - 1);
+        while(j <= i){
+            cout << char(c + i - 1);
             j++;
         }
         cout << endl;
         i++;
     }
+    
     return 0;
 }
-//this pattern will print
-// 3
-// ABC
-// ABC
-// ABC
+//this will print
+//3
+// A 
+// BB 
+// CCC 
