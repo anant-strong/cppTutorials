@@ -9,8 +9,8 @@ int main()
     int i = 1;
     while(i <= n){
         int j = 1;
-        while(j <= n){
-            cout << "*";
+        while(j<=i){
+            cout << i;
             j++;
         }
         cout << endl;
@@ -18,9 +18,10 @@ int main()
     }
     return 0;
 }
-//this pattern will print
-// 4
-// ****
-// ****
-// ****
-// ****
+//this pattern will be printed
+// 5
+// 1
+// 22
+// 333
+// 4444
+// 55555
