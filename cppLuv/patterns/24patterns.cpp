@@ -10,14 +10,14 @@ int main()
     while(row <= n){
         //to print spaces
         int space = 1;
-        while(space <= row - 1){
+        while(space<=n-row){
             cout << " ";
             space++;
         }
-        //to print stars
+        //to print numbers
         int col = 1;
-        while(col <= n -row + 1){
-            cout << "*";
+        while(col<=row){
+            cout << row;
             col++;
         }
         cout << endl;
@@ -25,10 +25,9 @@ int main()
     }
     return 0;
 }
-//this will print 
-// 5
-// *****
-//  ****
-//   ***
-//    **
-//     *
+//this will print
+// 4
+//    1
+//   22
+//  333
+// 4444

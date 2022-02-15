@@ -5,19 +5,22 @@ using namespace std;
 int main()
 {
     int n;
+    int t = 1; //counting variable
     cin >> n;
     int row = 1;
     while(row <= n){
-        //to print spaces
+        //for spaces
         int space = 1;
-        while(space <= row - 1){
+        while(space<=row-1){
             cout << " ";
             space++;
         }
-        //to print stars
+        //to print numbers
         int col = 1;
-        while(col <= n -row + 1){
-            cout << "*";
+        int t = row;
+        while(col<=n-row+1){
+            cout << t;
+            t++;
             col++;
         }
         cout << endl;
@@ -25,10 +28,9 @@ int main()
     }
     return 0;
 }
-//this will print 
-// 5
-// *****
-//  ****
-//   ***
-//    **
-//     *
+//this will print this
+// 4
+// 1234
+//  234
+//   34
+//    4

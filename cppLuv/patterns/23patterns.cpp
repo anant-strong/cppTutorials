@@ -17,7 +17,7 @@ int main()
         //to print stars
         int col = 1;
         while(col <= n -row + 1){
-            cout << "*";
+            cout << row;
             col++;
         }
         cout << endl;
@@ -25,10 +25,9 @@ int main()
     }
     return 0;
 }
-//this will print 
-// 5
-// *****
-//  ****
-//   ***
-//    **
-//     *
+//this will print this
+// 4
+// 1111
+//  222
+//   33
+//    4
