@@ -18,6 +18,9 @@ int main()
             a =  "this is a prime number";
         }
     }
+    if(n == 0 || n ==1){
+        cout << "0 and 1 are not prime numbers";
+    }
     cout << a;
     return 0;
 }

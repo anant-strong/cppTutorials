@@ -8,17 +8,14 @@ int main()
 
     cout << "Enter the binary to convert it to decimal: ";
     cin >> n;
-    int k = n;
+    
     int t = n;
-    int count = 0;
-    while(k){
-        count++;
-        k = k/10;
-    }
+    int i = 0;
     while(n){
         rem = n % 10;
-        d = d + rem*pow(2,count - 1);
-        count--;
+        d = d + rem*pow(2,i);
+        
+        i++;
         n = n/10;
     }
     cout << "The decimal form of " << t << " is " << d << endl;

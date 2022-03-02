@@ -9,11 +9,12 @@ int main()
     cout << "Enter a number to convert it to binary: ";
     cin >> n;
     int k = n;
-
+    int i = 0;
     while(n){
         rem = n % 2;
-        d = d * 10 + rem;
+        d = d  + rem * pow(10,i) ;
         n = n/2;
+        i++;
     }
     cout << "The binary form of " << k << " is " << d << endl;
 
