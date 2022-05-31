@@ -12,10 +12,13 @@ void sortOne(int arr[],int n){
                 right--;
             }
 
-            swap(arr[left],arr[right]);
+            if(left<right){
+                swap(arr[left],arr[right]);
 
-            left++;
-            right--;
+                left++;
+                right--;
+            }
+            
             
         }
 }
