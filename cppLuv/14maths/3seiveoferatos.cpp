@@ -1,4 +1,5 @@
 // leetcode question(count primes) using seive of eratosthenes
+// time complexity is O(n log log n)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -24,6 +25,11 @@ int countPrimes(int n)
             }
         }
     }
+    //  for (int p=2; p<n; p++){
+    //     if (v[p] == true)
+    //         cout << p << "  ";
+        
+    //     }
     return count;
 }
 int main()
