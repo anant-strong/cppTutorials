@@ -18,5 +18,6 @@ int main()
 
     cout << p << endl; //this should print the address but it printed some random char string till 
                        //it found null in the memory
+    cout << *p << endl; // using this is fine
     return 0;
 }
